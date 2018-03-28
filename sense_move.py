@@ -28,8 +28,17 @@ def move(p, U):
         q.append(s)
     return q
 
-for k in range(len(measurements)):
-    p = sense(p, measurements[k])
-    p = move(p, motions[k])
+p=sense(p,'red')
+p=move(p,1)
+p=sense(p,'red')
+p=move(p,1)
+p=sense(p,'green')
+print(p)
+
+
+
+# for k in range(len(measurements)):
+#     p = sense(p, measurements[k])
+#     p = move(p, motions[k])
     
-print p         
+# print p         

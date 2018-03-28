@@ -1,10 +1,6 @@
 from math import *
 import random
 
-# --------
-# 
-# some top level parameters
-#
 
 max_steering_angle = pi / 4.0 # You do not need to use this value, but keep in mind the limitations of a real car.
 bearing_noise = 0.1 # Noise parameter: should be included in sense function.
